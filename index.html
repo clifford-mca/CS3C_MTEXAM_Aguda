@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?amily=Jolly+Lodger&family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Midterm_Exam</title>
+</head>
+
+<body style="background-color: rgb(178, 181, 197);">
+    <header id="header">
+        <nav class="p-nav">
+            <div class="logo"><span class="red-dot">C</span>lifford</div>
+            <div class="nav-menu">
+                <ul class="nav-list" id="nav-list">
+                    <a href="#home">
+                        <li class="nav-item">Home</li>
+                    </a>
+                    <a href="#projects">
+                        <li class="nav-item">Feature Page</li>
+                    </a>
+                    <a href="#contact">
+                        <li class=" contact-btn">Contact</li>
+                    </a>
+                </ul>
+                <div class="nav-toggle " onclick="togle_nav_menu()">
+                    <i class="fa-solid fa-bars fa-2x "></i>
+                </div>
+            </div>
+            
+        </nav>
+
+    </header>
+
+    <main class="container">
+
+
+        <!-- home / hero -->
+        <section class="hero-section" id="home">
+            <div class="hero-left" id="home-data">
+                <br>
+                <br>
+                <h1 class="home-title">Hi,I am <br>
+                    <span class="hero-name">Mark CLifford G. Aguda</span>
+                    <br> <span class="hero-title">
+                        BSCS <br>
+                        <span class="tab"></span> 3C<span class="red-dot">.</span>
+                    </span>
+                </h1>
+                <p class="hero-description">
+                    Crafting the user-facing aspects of websites and web applications. This includes designing and implementing the layout, visual elements, and interactive features that users interact with directly.
+                </p>
+                <div class="socials">
+                    <a href=""><i class="fa-brands fa-linkedin fa-2x" style="color: black;"></i></a>
+                    <a href=""><i class="fa-brands fa-github fa-2x" style="color: black;"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter fa-2x" style="color: black;"></i></a>
+                    <a href=""><i class="fa-solid fa-envelope fa-2x" style="color: black;"></i></a>
+                </div>
+
+            </div>
+            <div class="hero-right">
+
+            <br><br><br>
+            <div class="hero-image">
+                <img src="assets/images/fordimg.jpg" alt="hero image">
+            </div>
+        </div>
+        </section>
+
+        <!-- about -->
+        <section class="about_me-section" id="about-me">
+            <div class="about-me-top">
+                <h1>About Me<span class="red-dot">.</span></h1>
+                <p class="about-me-description">
+                    My name is Mark Clifford G. Aguda, 22 years old. I leave in San pedro Candon City, I.S. and currently studying at ISPSCS Main Campus in Course of Bachelor of Science in Computer Science
+                </p>
+            </div>
+            <div class="about-me-img ">
+                <img src="assets/images/fordimg1.jpg" alt="">
+            </div>
+        </section>
+
+        <!-- services -->
+        <section class="services" id="services">
+            <div class="about-me-top">
+                <h1>Product Info.<span class="red-dot">.</span></h1>
+                <p class="about-me-description">
+                    Our featured product line showcases high-performance sports cars designed for speed, luxury, and cutting-edge technology. Each model is engineered with precision, offering an exhilarating driving experience with powerful engines, aerodynamic designs, and state-of-the-art interiors.
+                </p>
+            </div>
+
+           
+        </section>
+
+        <!-- projects -->
+        <section class="portfolio" id="projects">
+
+            <div class="about-me-top">
+                <h1>Feature Page<span class="red-dot">.</span></h1>
+
+            </div>
+            <div class="projects">
+                        <div class="project-card">
+                            <img src="assets/images/project (1).jpg" alt="Mazda MX-5">
+                            <h3>Mazda MX-5</h3>
+                            <p>₱2.23 - 2.35 Million</p>
+                            <button class="add-to-cart">ADD TO CART</button>
+                        </div>
+                
+                        <div class="project-card">
+                            <img src="assets/images/project (2).jpg" alt="Toyota GR86">
+                            <h3>Toyota GR86</h3>
+                            <p>₱2.716 - 2.856 Million</p>
+                            <button class="add-to-cart">ADD TO CART</button>
+                        </div>
+                
+                        <div class="project-card">
+                            <img src="assets/images/project (3).jpg" alt="Ford Mustang">
+                            <h3>Ford Mustang</h3>
+                            <p>₱3.499 - 3.999 Million</p>
+                            <button class="add-to-cart">ADD TO CART</button>
+                        </div>
+                
+                        <div class="project-card">
+                            <img src="assets/images/project (4).jpg" alt="BMW M2 Coupe">
+                            <h3>BMW M2 Coupe</h3>
+                            <p>₱5.99 - 8.89 Million</p>
+                            <button class="add-to-cart">ADD TO CART</button>
+                        </div>
+                
+                    <!-- Shopping Cart (Static Structure) -->
+                    <div class="shopping-cart">
+                        <h2>Shopping Cart</h2>
+                        
+                        <p><strong>Total Price:</strong> ₱0</p>
+                    </div>
+                
+
+            </div>
+
+        </section>
+
+        <!-- contact -->
+        <section class="contact" id="contact">
+            <div class="about-me-top contact-heading">
+                <h1><span class="red-dot">Contact.</span></h1>
+                <p class="about-me-description">
+                   Feel free to contact me and I will response to your query.
+                </p>
+            <div class="logo"><span class="red-dot">C</span>lifford</div>
+
+            
+                <div class="socials bottom-social">
+                    <a href=""><i class="fa-brands fa-linkedin fa-2x" style="color: black;"></i></a>
+                    <a href=""><i class="fa-brands fa-github fa-2x" style="color: black;"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter fa-2x" style="color: black;"></i></a>
+                    <a href=""><i class="fa-solid fa-envelope fa-2x" style="color: black;"></i></a>
+                </div>
+            </div>
+
+        </section>
+
+
+    </main>
+
+    
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-child">
+            
+            <p class="copyright">&copy; Mark Clifford G. Aguda</p>
+        </div>
+    </footer>
+
+    <div class="to-top">
+        <a href="#header"><i class="fa-solid fa-arrow-up fa-2x" style="color: white;" ></i></a>
+    </div>
+
+    <script>
+        let navList = document.getElementById('nav-list')
+        navList.addEventListener('click', togle_nav_menu)
+
+        function togle_nav_menu(){
+            console.log('This is working');
+            navList.classList.toggle('show-menu')
+            
+        }
+    </script>
+</body>
+
+</html>
